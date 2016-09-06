@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "rules": {
+    "brace-style": [2, "stroustrup"],
+    "consistent-return": 0,
+    "indent": [2, 4],
+    "new-cap": [2, {"capIsNewExceptions": ["Router"]}],
+    "no-shadow": [2, {"allow": ["err"]}],
+    "object-curly-spacing": [2, "never"]
+  }
+}

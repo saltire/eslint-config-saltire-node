@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-saltire-node",
+  "version": "1.0.0",
+  "description": "JS ESLint config for personal projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saltire/eslint-config-saltire-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltire/eslint-config-saltire-node/issues"
+  },
+  "homepage": "https://github.com/saltire/eslint-config-saltire-node#readme",
+  "peerDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^6.0.0",
+    "eslint-plugin-import": "^1.14.0"
+  }
+}
